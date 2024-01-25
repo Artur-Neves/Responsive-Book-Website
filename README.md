@@ -10,8 +10,8 @@ Página HTML desenvolvida durante a formação HTML e CSS da Alura.
 ## ✔️ Técnicas e tecnologias utilizadas
 
 
-- **`SwiperJS`**: biblioteca de javascript criado e utilizado para a apresentação na forma de slides.
+- **`SwiperJS`**: Biblioteca de JavaScript criada e utilizada para apresentações no formato de slides.
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) ou [baixá-lo](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/archive/refs/heads/projeto-inicial.zip).
+Você pode acessar o resultado final neste [link]([https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial](https://artur-neves.github.io/Responsive-Book-Website/)https://artur-neves.github.io/Responsive-Book-Website/)
