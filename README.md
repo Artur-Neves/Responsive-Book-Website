@@ -14,4 +14,4 @@ Página HTML desenvolvida durante a formação HTML e CSS da Alura.
 
 ## 📁 Acesso ao projeto
 
-Você pode acessar o resultado final neste [link]([https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial](https://artur-neves.github.io/Responsive-Book-Website/)https://artur-neves.github.io/Responsive-Book-Website/)
+Você pode acessar o resultado final neste [link](https://artur-neves.github.io/Responsive-Book-Website/)
