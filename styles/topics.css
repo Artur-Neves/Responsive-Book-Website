@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: center;
 
+
 }
 .topics__item{
     margin: 2em 0.25em;
@@ -29,4 +30,38 @@
     font-size: 0.875rem;
     background-color: var(--secundary-color);
     
+}
+@media screen and (min-width: 1024px){
+    .topics__text{
+        font-size: 1.5rem;
+        
+    }
+    .topics__list a{
+        font-size: 1.5rem;
+      
+    }
+    .topics{
+        padding: 1em 4em;
+    }
+    .topics__list{
+        gap: 0.5em;
+    }
+   
+    
+}
+@media screen and (min-width: 1024px){
+    .topics__item a{
+       padding: 1.5em 2em;
+    }
+    .topics__text{
+        margin: 0;
+        padding: 1.5em 0 0.5em 0;
+        font-size: 2rem;
+    }
+    .topics__item{
+        margin: 3em 0;
+    }
+    .topics{
+        padding: 3em 25em;
+    }
 }

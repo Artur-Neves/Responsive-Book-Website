@@ -7,12 +7,14 @@
     font-size: var(--font-text-size);
     font-weight: 400;
 }
+
 .header__menu{
     width: 2em;
     height: 24px;
     background-image: url("/img/Menu.svg");
     display: inline-block;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .header__menu:hover{
     cursor: pointer;
@@ -21,11 +23,12 @@
     display: flex;
     align-items: center;
    justify-content: space-between;
+   text-align: center;
    gap: 2em;
    margin: 1em;
 }
 .header__list{
-    display: none;
+   
     position: absolute;
     top: 100%;
     left: 0;
@@ -34,9 +37,7 @@
     display: block;
     width: 60vw;
 }
-.checkbox{
-    display: none;
-}
+
 
 .header__list-link{
     text-decoration: none;
@@ -50,4 +51,86 @@
     font-weight: 700;
     padding: 1em;
     background-color: var(--primary-color);
+}
+.header__title{
+    font-family: var(--font-secundary-family), sans-serif;
+    font-weight: 400;
+    font-size: 1.875rem;
+}
+.header__title--negrito{
+    font-weight: 700;
+}
+.header__options, .header__title, .conteiner__text, .checkbox, .header__list{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .header__title{
+        display: block;
+    }
+    
+    .header__options{
+        display: flex;
+        margin-left: 3.5em;
+    }
+    .header__options__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+        padding: 1em 1em;
+    }
+    .header__options__item a{
+        text-decoration: none;
+        color: black;
+    }
+    .header__conteiner__image--favorites{
+        display: none;
+    }
+    .header__conteiner--image{
+        padding-right: 2em;
+    }
+    .header__conteiner{
+        gap: 1.5em;
+        margin: 1em 0.5em;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__list{
+        left: auto;
+        display: none;
+    }
+    .checkbox:checked~.header__list{
+        display: block;
+        width: auto;
+    }
+    .checkbox:checked~.header__option > .category{
+        background: var(--degrade-color);
+        padding: 1em 1em;
+        color: var(--primary-color);
+    }
+    .header__list-items:hover {
+        background: var(--degrade-color);
+        cursor: pointer;
+    }
+    .header__list-items:hover > .header__list-link{
+        -webkit-text-fill-color: var(--primary-color);
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .conteiner__text{
+        display: block;
+    }
+    .header__conteiner--image{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        text-decoration: none;
+        color: var(--quaternary-color);
+        font-size: 1.25rem;
+    }
+    .header{
+        padding: 0 2em;
+    }
+  
 }
